@@ -7,7 +7,16 @@
 @import "less/theme-variables";
 @import "../bower_components/lesshat/build/lesshat-prefixed";
 @import "less/bootstrap-variables";
+
 //less code/functions
+
+html, body {
+  height: 100%!important;
+  background-image: url("../images/swirl.png");
+  height: 100% !important;
+  background-repeat: repeat;
+
+}
 
 label {
   display: inline-block;
@@ -16,15 +25,14 @@ label {
 
 .kiosk #ui {
 
-  background-image: url("../images/swirl.png");
-   > header {
-     background-image: url("../background.jpg");
-     background-size: cover;
-     background-position: center center;
-     color: #fff;
-    //     height: 500px;
 
-   }
+  > header {
+    background-image: url("../background.jpg");
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+
+  }
 
   > section, footer {
     padding-top: 30px;
