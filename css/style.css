@@ -9,3 +9,21 @@ label {
   display: inline-block;
   margin-bottom: 20px;
 }
+.kiosk #ui {
+  background-image: url("../images/swirl.png");
+}
+.kiosk #ui > header {
+  background-image: url("../background.jpg");
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+}
+.kiosk #ui > section,
+.kiosk #ui footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px dotted #dddadb;
+}
+.kiosk #ui footer {
+  border-bottom: none;
+}
